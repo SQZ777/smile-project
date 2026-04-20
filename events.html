@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>微笑姐姐說故事｜活動行事曆</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>微笑姐姐說故事</h1>
+    <nav>
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於我</a>
+      <a href="events.html" class="active">活動行事曆</a>
+      <a href="podcast.html">Podcast 頻道</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">Warm storytelling for families</p>
+      <h2>把故事帶進行程裡，讓期待從翻開月曆那一刻開始。</h2>
+      <p>這裡管理近期的故事活動、親子工作坊與特別企劃，讓家長與孩子一起期待每一場相聚。</p>
+      <div class="actions"><a class="btn" href="podcast.html">活動前先聽 Podcast</a></div>
+    </section>
+
+    <section>
+      <h3>活動資訊卡片</h3>
+      <div class="grid">
+        <article>
+          <h4>春日繪本野餐故事場</h4>
+          <p><strong>日期：</strong>2026/04/26</p>
+          <p><strong>地點：</strong>台中都會公園</p>
+          <p>在戶外享受溫暖陽光與故事時光，適合全家大小參與。</p>
+        </article>
+        <article>
+          <h4>睡前故事聲音工作坊</h4>
+          <p><strong>日期：</strong>2026/05/03</p>
+          <p><strong>地點：</strong>線上直播活動</p>
+          <p>學習如何用聲音陪伴孩子入睡，適合家長與教育工作者。</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h3>行事曆（示意）</h3>
+      <div class="calendar-controls">
+        <button id="prevMonth">← 上個月</button>
+        <h4 id="monthLabel"></h4>
+        <button id="nextMonth">下個月 →</button>
+      </div>
+      <div id="calendar" class="calendar"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 微笑姐姐說故事。以童趣與陪伴為核心設計。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
